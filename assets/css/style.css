@@ -1,0 +1,293 @@
+body{
+	margin-top:0 !Important;
+}
+
+header{
+	background-color:#424242;
+}
+.container-fluid.header, .col-xs-12.col-md-12.col-lg-12.banner{
+	padding-left:0;
+	padding-right:0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+{
+	border-radius:0;
+	margin-bottom:0;
+    background-color: #424242 !important;
+}
+
+#navbarText{
+	margin-right:50%;
+	width: 100%;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+	color:#ffffff75;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+}
+
+
+input.form-control.busca{
+	width: 80%;
+	background-color:#252525;
+	border:none;
+	color:#fff;
+}
+
+#basicText{
+	background-color:#252525;
+	color:#fff;
+    padding: 1.23rem .75rem;
+    border: none;
+}
+
+#banner{
+	width:100%;
+}
+
+.title1{
+	text-align: center;
+	font-size:27px;
+	font-weight:400;
+	margin-top:40px;
+	margin-bottom:40px;
+
+}
+
+
+/* CSS Document */
+
+body{margin-top: 50px; margin-bottom: 100px;}
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+
+a.btn.btn-outline-secondary.prev, a.btn.btn-outline-secondary.next{
+    border-color: #a0a0a0;
+    border-radius: 0;	
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+a.btn.btn-outline-secondary.prev{
+    position: relative;
+    right: 80px;
+}
+
+a.btn.btn-outline-secondary.next{
+    position: relative;
+    left: 80px;
+}
+
+.carousel-indicators li{
+}
+.carousel-indicators .active{
+	background-color:#5a6268;
+    border-radius: 0 !important;
+    width: 20%;
+}
+
+/*
+.carousel-indicators{
+    bottom: 10px;
+    width: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    left:0 !important;
+
+}
+
+*/
+
+.carousel-indicators{
+	left:0;
+	bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:20%;
+}
+
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 8 8 auto;
+    width: 35px;
+    height: 9px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #f0f0f0;
+    border-radius: 0 !important;
+}
+
+.card-block.p-t-2{
+	padding:.75rem 1.25rem;
+}
+
+.titleCard{
+	font-size:18px;
+	color:#000;
+}
+
+.card-header{
+background-color: #fff;
+border-bottom:0;
+}
+
+.card-text{
+	padding:.75rem 1.25rem;
+}
+
+.cardCol{
+	padding-bottom: 1rem;
+}
+
+.card{
+	box-shadow:15px 18px 0px -3px #f0f0f0;
+	border-radius: 0;
+}
+
+
+.btncenterCard{
+	margin-left:auto;
+margin-right: auto;
+display: block;
+width: 100%;
+margin-top: 10px;
+margin-bottom:10px;
+border-radius: 0;
+background-color: transparent;
+border:1px solid #5f5f5f;
+color:#5f5f5f;
+}
+
+
+.btncenterCard:hover{
+margin-left:auto;
+margin-right: auto;
+display: block;
+width: 100%;
+margin-top: 10px;
+margin-bottom:10px;
+border-radius: 0;
+background-color:#5f5f5f;
+color:#fff;
+}
+
+.fa.fa-lg.fa-chevron-left, .fa.fa-lg.fa-chevron-right{
+
+    font-size: .9em;
+    color:#000;
+}
+
+
+.controler{
+	position: relative;
+	top:20px;
+	margin-bottom:20px;
+}
+
+/*form*/
+
+
+input{
+	margin-bottom:15px;
+	border-radius:0 !Important;
+
+}
+
+
+.btncenter{
+margin-left:auto;
+margin-right: auto;
+display: block;
+margin-left:auto;
+margin-right: auto;
+display: block;
+margin-top: 10px;
+margin-bottom:20px;
+border-radius: 0;
+background-color:#5f5f5f;
+color:#fff;
+padding: 10px 60px;
+}
+
+/*infos*/
+.info
+{
+	position: relative;
+	top:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.flag{
+float:left;
+width:12%;
+position: relative;
+top: 0.4em;
+}
+
+.textInfo{
+	float:right;
+	width:88%;
+}
+/*footer*/
+
+.col-xs-12.col-md-6.col-lg-6.linkFooter {
+    float: right;
+    text-align: right;
+}
+
+.col-xs-12.col-md-6.col-lg-6.linkFooter a{
+	color:#000;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.row.borda{
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    top: 80px;
+    position: relative;
+}
